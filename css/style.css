@@ -167,5 +167,12 @@ header nav li a{
     display: inline-block;
     max-width: 128px;
     width: auto;
-    height: 78px;
+}
+.owl-carousel .owl-stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owl-carousel.owl-drag .owl-item {
+    text-align: center;
 }

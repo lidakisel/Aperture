@@ -1,0 +1,40 @@
+@media screen and (max-width: 510px){
+    .main{
+        padding: 0px 20px 71px 20px;
+    }
+}
+@media screen and (min-width: 510px) {
+    .cd-header .nav {
+        padding: 15px 0px;
+    }
+
+    .cd-header .nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .cd-header .nav li {
+        margin-left: 32px;
+    }
+
+    .cd-header .nav li:first-of-type a {
+        color: #FFF;
+        font: 13px/20px 'poppinsregular';
+        margin-right: 24px;
+    }
+
+    .cd-header .nav li:last-of-type a {
+        color: #000;
+        font: 16px/20px 'poppinsregular';
+        letter-spacing: 0.4px;
+        border-radius: 14px;
+        background: #FFF;
+        padding: 9px 20px 9px;
+    }
+
+    .cd-header .nav li a {
+        text-decoration: none;
+        color: #FFF;
+        font: 15px/20px 'poppinsregular';
+    }
+}

@@ -16,10 +16,11 @@
     margin: 0px;
     box-sizing: border-box;
 }
-header{
+.cd-header{
     padding: 20px 0px;
     background: #181818;
 }
+
 .wrapper{
     max-width: 1200px;
     margin: auto;
@@ -29,34 +30,7 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-header nav{
-    padding: 15px 0px;
-}
-header nav ul{
-    display: flex;
-    list-style-type: none;
-}
-header nav li{
-    margin-left: 32px;
-}
-header nav li:first-of-type a{
-    color: #FFF;
-    font: 13px/20px 'poppinsregular';
-    margin-right: 24px;
-}
-header nav li:last-of-type a{
-    color: #000;
-    font: 16px/20px 'poppinsregular';
-    letter-spacing: 0.4px;
-    border-radius: 14px;
-    background: #FFF;
-    padding: 9px 20px 9px;
-}
-header nav li a{
-    text-decoration: none;
-    color: #FFF;
-    font: 15px/20px 'poppinsregular';
-}
+
 .main{
     background-image: url("../images/backmain.jpg");
     background-size: cover;
@@ -65,7 +39,7 @@ header nav li a{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 71px;
+    padding: 0px 0px 71px 0px;
     position: relative;
 }
 .main article{
@@ -92,7 +66,7 @@ header nav li a{
 }
 .mini_icons{
     position: absolute;
-    right: 40px; bottom 40px;
+    right: 40px; bottom: 40px;
     display: flex;
 }
 .mini_icons li{
